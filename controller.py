@@ -69,7 +69,7 @@ def play_loop():
         
 if __name__ == "__main__":
     view.welcome_message()
-    time.sleep(8)
+    time.sleep(4)
     choice = view.ask_user()
     if choice == "Yes" or choice == "yes":
         game = model.draw_game()
